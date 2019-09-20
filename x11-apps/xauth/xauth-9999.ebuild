@@ -12,7 +12,7 @@ else
 fi
 
 DESCRIPTION="X authority file utility"
-IUSE="ipv6 test"
+IUSE="ipv6 test ppc-aix x86-winnt"
 
 RDEPEND="x11-libs/libX11
 	x11-libs/libXau

@@ -9,7 +9,7 @@ DESCRIPTION="X authority file utility"
 
 KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 ~sh sparc x86 ~x64-cygwin ~amd64-fbsd ~amd64-linux ~x86-linux"
 
-IUSE="ipv6 test"
+IUSE="ipv6 test ppc-aix x86-winnt"
 
 RDEPEND="x11-libs/libX11
 	x11-libs/libXau
