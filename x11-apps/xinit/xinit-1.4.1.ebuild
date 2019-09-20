@@ -9,7 +9,7 @@ DESCRIPTION="X Window System initializer"
 
 LICENSE="${LICENSE} GPL-2"
 KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-fbsd ~x86-fbsd ~arm-linux ~x86-linux"
-IUSE="twm"
+IUSE="twm ppc-aix x86-winnt"
 
 RDEPEND="
 	!<x11-base/xorg-server-1.8.0
