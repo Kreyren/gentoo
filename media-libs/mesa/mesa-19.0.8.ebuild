@@ -38,7 +38,7 @@ done
 IUSE="${IUSE_VIDEO_CARDS}
 	+classic d3d9 debug +dri3 +egl +gallium +gbm gles1 +gles2 +libglvnd +llvm
 	lm-sensors opencl osmesa pax_kernel pic selinux test unwind vaapi valgrind
-	vdpau vulkan wayland xa xvmc"
+	vdpau vulkan wayland xa xvmc x86 amd64"
 
 REQUIRED_USE="
 	d3d9?   ( dri3 || ( video_cards_r300 video_cards_r600 video_cards_radeonsi video_cards_nouveau video_cards_vmware ) )
