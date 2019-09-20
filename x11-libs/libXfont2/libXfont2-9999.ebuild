@@ -10,7 +10,7 @@ inherit xorg-3
 DESCRIPTION="X.Org Xfont library"
 
 KEYWORDS=""
-IUSE="bzip2 ipv6 truetype"
+IUSE="bzip2 ipv6 truetype ppc-aix x86-winnt"
 
 RDEPEND="sys-libs/zlib
 	x11-base/xorg-proto
